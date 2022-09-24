@@ -30,4 +30,3 @@ else
 i++;																	}
 return (diff);
 }
-}
