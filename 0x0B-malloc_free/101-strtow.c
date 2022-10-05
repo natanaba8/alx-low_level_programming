@@ -88,5 +88,6 @@ if (str != NULL)
 while (str[len])
 len++;
 }
-return (len);
+return(len);
 }
+
