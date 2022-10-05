@@ -75,10 +75,10 @@ i++;
 return (words);
 }
 /**
- * * len - returns length of str
- * *@str: string to be counted
- * *
- * * Return: length of the string
+ ** len - returns length of str
+ **@str: string to be counted
+ **
+ ** Return: length of the string
   */
 int len(char *str)
 {
