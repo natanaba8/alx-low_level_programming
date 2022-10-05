@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * *strtow - splits a stirng into words
- * *@str: string to be splitted
- * *
- * *Return: pointer to the array of splitted words
- * */
+ **strtow - splits a stirng into words
+ **@str: string to be splitted
+ **
+ **Return: pointer to the array of splitted words
+ */
 char **strtow(char *str)
 {
 char **split;
@@ -88,6 +88,5 @@ if (str != NULL)
 while (str[len])
 len++;
 }
-return(len);
+return (len);
 }
-
