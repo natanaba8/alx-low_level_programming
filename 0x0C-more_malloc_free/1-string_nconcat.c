@@ -8,7 +8,7 @@
  */
 int _strlen(char *string)
 {
-		int i;
+int i;
 for (i = 0; string[i] != '\0'; i++);
 return (i);
 }
@@ -21,7 +21,7 @@ return (i);
   */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-		char *ptr;
+char *ptr;
 int num, len, i, j;
 num = n;
 if (s1 == NULL) /* account for NULL strings */
