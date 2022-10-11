@@ -1,6 +1,5 @@
 #ifndef _HEADER_
 #define _HEADER_
-
 /**
  ** struct dog - Dog attributes
  ** @name: The name of the dog.
@@ -11,7 +10,7 @@
   */
 struct dog
 {
-		char *name;
+char *name;
 float age;
 char *owner;
 };
