@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
-     void (*get_func(char identifier, struct format_struct *fmt_arr))(va_list *);
+void (*get_func(char identifier, struct format_struct *fmt_arr))(va_list *);
 void print_char(va_list *arg);
 void print_int(va_list *arg);
 void print_float(va_list *arg);
