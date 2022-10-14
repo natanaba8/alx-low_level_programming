@@ -11,7 +11,7 @@
   */
 int main(int argc, char *argv[])
 {
-		int n_bytes, i;
+int n_bytes, i;
 int (*prog)(int, char **) = &main;
 if (argc == 2)
 {
