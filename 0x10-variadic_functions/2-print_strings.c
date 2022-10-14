@@ -8,7 +8,7 @@
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-		unsigned int i;
+unsigned int i;
 va_list params;
 char *str;
 va_start(params, n);
