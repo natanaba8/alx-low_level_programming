@@ -15,5 +15,5 @@ while (h)
 elements++;
 h = h->next;
 }
-return (elements);
+return 0;
 }
