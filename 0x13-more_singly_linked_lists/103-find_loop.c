@@ -9,7 +9,7 @@
   */
 listint_t *find_common_node(listint_t *hare, listint_t *tortoise)
 {
-	while (hare && tortoise && hare->next)
+while (hare && tortoise && hare->next)
 {
 hare = hare->next->next;
 tortoise = tortoise->next;
